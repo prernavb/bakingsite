@@ -1,0 +1,474 @@
+
+        html,body {
+            background-color: #f3f3f3;
+            font-family: sans-serif, open ;
+            
+        }
+
+        div.top-navbar {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        div.top-navbar i{
+            margin-left: 10px;
+        }
+
+        .heading ul {
+            list-style-type: none;
+            display: inline;
+        }
+
+        .heading ul li{
+           display: inline;
+           margin-right: 10px;
+        }
+
+        i {
+            color: #f3f3f3;
+        }
+
+        .main-navbar i {
+            color: black;
+        }
+
+        .heading ul, body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div.main-navbar {
+            background-color: #eb1dda;
+            color: white;
+            display: flex;
+            padding: 15px 5%;
+            justify-content: space-between;
+            align-items: center;
+            /* position: fixed;
+            width: 90%;
+            z-index: 999999; */
+        }
+
+        div.main-navbar .nav-logo img {
+            width: 50px;
+            height: 50px;   
+        }
+
+        div.main-navbar .nav-logo {
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+
+        }
+
+.nav-items ul li a {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: unset;
+    padding: 5px 25px;
+}
+
+.nav-items ul li a:hover {
+    color: white;
+    font-size: 2rem;
+    
+} 
+
+div.contact-medium {
+    justify-content: center;
+    /* width: 90%; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(210, 206, 206),0 6px 20px 0 rgb(228, 225, 225) ;
+    position: relative ;
+    bottom: 10px;
+    
+}
+
+.nav-items ul li a.active {
+    color: white;
+    
+    
+} 
+
+section.contact {
+    background-color: white;
+    padding: 0 5%;
+    justify-content: space-evenly;
+}
+
+.desc-logo p {
+    font-family:cursive;
+    font-size: 50px;
+}
+ 
+section.hero {
+    
+    height: 80vh;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+section.hero, 
+div.contact-medium,
+div.contact-medium div,
+section.about-us div.heading,
+section.about-us div.content,
+section.footnote div,
+section.footer div{
+    display: flex;
+}
+div.get-in-touch {
+    width: 50%;
+    flex-direction: column;
+    /* align-items: center; */
+}
+div.quick-links {
+    width: 50%;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+div.contact-medium div{
+    width: 30%;
+    flex-direction: column;
+    align-items: center;   
+}
+
+section.contact table td {
+    
+    padding-bottom: 10px;
+}
+
+
+
+section.hero h1 {
+    font-size: 5rem;
+    color: rgb(248, 243, 243);
+    /* z-index: 10; */
+    position: absolute;
+
+    /* background-color: black;
+    padding: 10px 15px;
+    border-radius: 5px; */
+ }
+
+ section .overlay{
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+ }
+
+ section h2.title {
+    color: fuchsia;
+    text-transform: uppercase;
+    margin-top: 0;
+ }
+
+ div.contact-medium div.open-hours,
+ div.contact-medium div.call {
+    border-right:  2px solid rgb(232, 230, 230);
+
+ }
+
+ section.contact table td.days {
+    padding-right: 10px;
+ }
+
+ section.about-us {
+    background-color: #f3f3f3;
+    padding: 10% 5% ;
+ }
+
+ section.about-us div.heading{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+ }
+ section.about-us div.heading h2{
+    
+    margin-bottom: 0;
+ }
+
+ section.about-us div.heading .line-sepa{
+    /* height: 5px; */
+    width: 60px;
+    border-bottom: 2px solid black;
+    border-radius: 50%;
+ }
+section.about-us div.content{
+    justify-content: space-between;
+}
+
+ section.about-us div.content div img{
+    width: 48%;
+    
+ }
+
+ section.about-us div.welcome-message,
+ div.gallery{
+    width: 48%;
+    color: black;
+    
+ }
+ section.footnote,
+ section.footer{
+    background-color: black;
+    color: rgb(249, 6, 6);
+    padding: 20px;
+    border-bottom: 1px solid rgb(84, 84, 84) ;
+    
+ }
+ section.footnote div.get-in-touch, div.quick-links{
+    margin: 40px;
+ }
+ 
+ section.footer div{
+    justify-content: center;
+    color: white;
+ }
+ 
+ div.get-in-touch, div.quick-links{
+    border-right: 1px solid rgb(95, 94, 94);
+ }
+        
+ table.get-in-touch{
+    color: white;
+ }
+
+ section.footnote, a{
+    color: rgb(209, 4, 4);
+ }
+ div.footer2 {
+    margin-left: 5px;
+ }
+ section.footer i{
+    margin: 5px;
+ }
+ a{
+    text-decoration: none;
+ }
+ 
+ /* 
+ *************
+ Contact Us
+ *************
+ */
+
+ section.main-contact-container{
+    padding: 8% 5%;
+ }
+
+ section.main-contact-container div.contact-container{
+    background-color: white;
+    display: flex;
+    padding: 6% 3%;
+    justify-content: space-between;
+ }
+
+ section.main-contact-container div.contact-container h2{
+    margin: 0%;
+ }
+
+div.message-us,
+ div.contact-us{
+    width: 48%;
+    
+ }
+
+ div.contact-container .title h2{
+    margin: 0%;
+ }
+
+ div.contact-container .underline{
+    width: 100px;
+    border-bottom: 5px fuchsia solid;
+    margin-bottom: 45px;
+ }
+
+
+ .message-us .message-form form{
+    width: 100%;
+ }
+ .message-us .message-form form input,
+ .message-us .message-form form textarea
+  {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: #eb1dda solid;
+ }
+ 
+ .message-us .message-form form div.submit-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+ }
+ 
+ .message-us .message-form form div.submit-button input
+  {
+    width: fit-content;
+    background-color: #eb1dda;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 5px solid;
+ }
+
+ .message-us .message-form form div.submit-button input:hover
+  {
+    background-color: #f190e9;    
+    border-color: #bbbbbb;
+    cursor: pointer;
+ }
+
+ .contact-us ul.contact-info{
+   list-style-type: none;
+   padding: 0%;
+
+   margin: 2rem 0;
+
+ }
+
+ .contact-us ul.contact-info li{
+   margin-bottom: 10px;
+
+ }
+
+ .contact-us ul.contact-info li i{
+   margin-right: 15px;
+   color: #eb1dda;
+ }
+ .socials{
+   display: flex;
+
+ }
+ .socials .social-circle {
+   display: flex;
+   color: #eb1dda;
+   border: 3px #eb1dda solid;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   padding: .5rem;
+   margin-right: 15px;
+   align-items: center;
+   justify-content: center;
+
+ }
+
+ .socials .social-circle:hover{
+   
+   background-color: #eb1dda;
+   border: 2px #bbbbbb solid;
+
+   
+ }
+ .socials .social-circle:hover i{
+   color: white;
+   
+
+   
+ }  
+
+
+ .socials .social-circle i{
+   color: #090008;
+   font-size: 1.3rem;
+   
+   
+ }
+ @media screen and (max-width: 600px){
+   .main-navbar, 
+   .contact-medium {
+      flex-direction: column;
+   }
+   .contact-medium{
+      align-items: center;
+   }
+
+   div.contact-medium div {
+      width: 100%;
+      margin: 10px 0;
+
+   }
+   
+   div.contact-medium div.open-hours, div.contact-medium div.call {
+      border-right: none
+  }
+  section.about-us div.content {
+   flex-direction: column;
+   align-items: center;
+
+}
+
+section.about-us div.welcome-message, 
+section.about-us .gallery {
+   width: 100%;
+}
+.footnote {
+   flex-direction: column;
+   align-items: center;
+
+}
+div.get-in-touch, div.quick-links {
+   border-right: none;
+}
+section.footer div {
+   flex-direction: column;
+   align-items: center;
+}
+section.main-contact-container div.contact-container {
+   flex-direction: column;
+   background-color: white;
+   display: flex;
+   padding: 6% 3%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+   /* .main-navbar .nav-logo, */
+   .main-navbar .nav-items{
+      width: 100%;
+
+   }
+   
+   .nav-items ul li{
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      
+   }
+   .nav-items ul li a{
+      display: block;
+      height: 100%;
+      padding: 10px 0px;
+      
+   }
+   section.hero h1{
+      font-size: 2.5rem;
+   }
+
+
+   
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px){
+   section.hero h1{
+      font-size: 3.5rem;
+   }
+}
